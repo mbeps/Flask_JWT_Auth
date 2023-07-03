@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jwt-flask-authentication"
+version = "0.1.0"
+description = "Simple Flask backend for handling authentication using JWT with Flask"
+authors = ["Maruf Bepary <bepary71@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "jwt_flask_authentication"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.3.2"
+jwt = "^1.3.1"
+environ = "^1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
